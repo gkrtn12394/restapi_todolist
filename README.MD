@@ -28,3 +28,8 @@
 * Service Component에서 로직 상 문제가 있을 때 null을 return하던 부분을 예외를 throw하도록 수정
 * CustomTooManyRequestsException 추가
 > DB 상에서 생길 수 있는 예외 처리
+
+### 2021-04-20
+* 로그인한 member의 nick을 가져오는 코드를 controller -> service로 이동
+* 로그인이 완료된 nick을 가져오기 때문에 usernick 체크하는 코드 삭제
+* Follow CRUD 
