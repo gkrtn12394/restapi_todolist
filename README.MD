@@ -32,4 +32,4 @@
 ### 2021-04-20
 * 로그인한 member의 nick을 가져오는 코드를 controller -> service로 이동
 * 로그인이 완료된 nick을 가져오기 때문에 usernick 체크하는 코드 삭제
-* Follow CRUD 
+* Follow CRUD 개발 시작
